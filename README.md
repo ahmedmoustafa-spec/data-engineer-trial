@@ -34,6 +34,11 @@ The SQL logic merges the incremental usage data with the CRM snapshot to calcula
 * **File:** [`src/transformation.sql`](./src/transformation.sql)
 * **Key Logic:** Uses Window Functions for the 7-day rolling average and `CASE` statements for the Churn Risk flag.
 
+
+### Performance & Quality Audit (Question 2)
+In addition to the SQL logic, I have provided a detailed analysis regarding pipeline optimization, existing code flaws, and a communication plan.
+
+* **Full Analysis:** [`docs/performance_and_quality.md`](./docs/performance_and_quality.md)
 ---
 
 ## 3. Architecture & ADF Flow (Question 3)
